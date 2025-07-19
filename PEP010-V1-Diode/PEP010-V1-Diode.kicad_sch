@@ -1696,16 +1696,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 80.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3289a95d-6e97-42de-b020-4842a658caa2")
-	)
-	(wire
-		(pts
 			(xy 80.01 68.58) (xy 80.01 74.93)
 		)
 		(stroke
@@ -2250,7 +2240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "PEP:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 40.64 52.07 0)
 			(effects
 				(font
@@ -2633,71 +2623,6 @@
 			(project "PEP001-V1-naponski_razdelnik"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 66.04 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "826ca864-9252-458f-aca6-645479633569")
-		(property "Reference" "J3"
-			(at 66.548 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 66.675 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 66.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 66.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "864fa913-d6b1-4965-904a-98db851d8344")
-		)
-		(instances
-			(project "PEP001-V1-naponski_razdelnik"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "J3")
 					(unit 1)
 				)
 			)
