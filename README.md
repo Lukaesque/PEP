@@ -1,2 +1,2 @@
-## Set štampanih ploča namenjenih za učenje elektronike.
+## Set štampanih ploča namenjenih za učenje elektronike........................................................
 
